@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Background Image</title>
+    <style>
+        #box1 {
+            background-image: url(../../images/OIP.jfif);
+            height: 296px;
+            width: 474px;
+        }
+        #box2 {
+            background-image: url(../../images/css.png);
+            height: 512px;
+            width: 512px;
+        }
+        #box3 {
+            background-image: url(../../images/OIP.jfif);
+            height: 700px;
+            width: 700px;
+            background-size: contain;
+        }
+        #box4 {
+            background-image: url(../../images/OIP.jfif);
+            height: 700px;
+            width: 700px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+    <hr>
+    <div id="box2"></div>
+    <hr>
+    <div id="box3"></div>
+    <hr>
+    <div id="box4"></div>
+</body>
+</html>
+
+<!-- Usage: Adds an image as a background to elements.
+   • Syntax: Defined using background-image: url('path/to/image’);.
+   • background-repeat: no-repeat; se image box ke andar repeat na ho agar box ka size bada h to.
+   • background-position: right; se apne image ko box ke andar left right kahi v position kr skte hain.
+   • background-size: contain; se image kitna bhi bada/chhota ho wo box size ke andar hi aayega.
+   • Background-Attachment: Sets whether the background image scrolls with the element or remains fixed.
+   
+   • Shorthand (color, image, repeat, attachment, position) 
+     background: green url('jeans.webp') no-repeat center;  -->
+   

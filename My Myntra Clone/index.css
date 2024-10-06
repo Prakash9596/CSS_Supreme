@@ -1,0 +1,155 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 1px solid #b6b1b1;
+    align-items: center;
+}
+
+.myntra_image{
+    height: 45px;
+}
+.myntra_logo{
+    margin-left: 4%;
+}
+
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 26.7px 0;
+    border-bottom: 5px solid #ffffff;
+    
+}
+.nav_bar a:hover{
+    border-bottom: 5px solid greenyellow;
+}
+
+.invisible sup {
+    color: #ffffff;
+}
+.visible sup{
+    color: red;
+}
+
+.search_bar span{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.search_input{
+    color: #696e79;
+    background-color: #f5f5f6;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    flex-grow: 1;
+    
+}
+
+.search_bar{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    
+}
+
+.action_bar{
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 200px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wishlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main Section */
+.banner_image{
+    margin: 40px 0;
+}
+.banner_pic{
+    width:100%;
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.b_image{
+    width: 250px;
+}
+.worthy_brands_image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Footer Section */
+.os1{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 40px 0px;
+}
+
+.os1 a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.os1{
+    h3 {
+        color: #282c3f;
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: #FAFBFC;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}

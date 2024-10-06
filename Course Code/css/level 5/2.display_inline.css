@@ -1,0 +1,16 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+
+    display: inline;
+    /* display: inline; hone ke wajah se div ab ek line me aa rha hai but size jo hm 100px * 100px set kiye hain wo pick nhi kr rha h why ?
+    becoz its inline element now and its Styling is Limited: Can't set size easily. 
+    Iska size content ke size ke according hoga, irrespective ki aap koi height and width de rhe hain
+    Iska solution hai display: inline-block;*/
+}
+

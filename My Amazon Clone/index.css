@@ -1,0 +1,253 @@
+/* For all */
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+/* For 1st box */
+.nav_bar{
+  display: flex;
+  height: 60px;
+  background-color: #0f1111;
+  color: #ffffff;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav_logo{
+  height: 50px;
+}
+.logo{
+  height: 50px;
+}
+.nav_border{
+  border: 1.5px solid transparent;
+}
+.nav_border:hover{
+  border: 1.5px solid white;
+}
+
+/* For 2nd box */
+.nav_location{
+  height: 50px;
+}
+.deliver_text{
+  color:#cccccc;
+  font-size: 0.85rem;
+}
+.india_text{
+  font-size: 1rem;
+
+}
+.add_icon{
+  display: flex;
+  align-items: center;
+}
+.deliver_text{
+  margin-left: 24px;
+}
+
+/* For 3rd box */
+.nav_search{
+  display: flex;
+  background-color: #0f1111;
+  width: 870px;
+  border-radius: 4px;
+  border: 3px solid transparent;
+}
+.nav_search:hover{
+  border: 3px solid orange;
+}
+.size_height {
+  height: 40px;
+}
+.select_text{
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-radius: 4px 0 0 4px;
+  border: none;
+}
+.searcing_box{
+  flex-grow: 1;
+  border: none;
+  font-size: 1rem;
+  border: none;
+  padding-left: 10px;
+}
+.search_icon{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-radius: 0 4px 4px 0;
+  color: #0f1111;
+
+}
+
+/* Box 4 */
+.hello{
+  font-size: 0.7rem; 
+  text-decoration: none;
+  color: #ffffff;
+}
+.hero{
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav_signin{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+/* Box 5 */
+.nav_cart{
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  padding: 9px;
+}
+.cart_class{
+  margin-top: 9px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+/* Panel bar */
+.panel{
+  display: flex;
+  height: 40px;
+  background-color: #222f3d;
+  justify-content: space-evenly;
+}
+.panel_all{
+  display:flex;
+  height: 39px;
+  flex-direction: row;
+  color: #ffffff;
+  align-items: center;
+}
+.panel_menu{
+  display: flex;
+  align-items: center;
+  width:93%;
+}
+.panel_menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+/*Hero Section*/
+.hero_section{
+  background-image: URL(images/hero_image.jpg);
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero_message{
+  background-color: #f5f6f6;
+  font-size: 14px;
+  color: #0f1111;
+  height: 40px;
+  text-align: center;
+  padding-top: 13px;
+  width:95%;
+  margin-bottom: 25px;
+
+}
+.hero_message a{
+  text-decoration: none;
+  color: #007185;
+}
+
+/* shop section*/
+.shop_section{
+  background-color: #e3e6e6;
+  height: 930px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.box{
+  height: 420px;
+  width: 23%;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.box_hero{
+  margin-top: 18px;
+  margin-left: 25px;
+}
+.shop_p1{
+  padding-bottom: 10px;
+  color: #0f1111;
+}
+.shop_p2{
+  padding-top: 19px;
+  color: #007185;
+  font-size: 13px;
+  font-weight: 550;
+  text-decoration: none;
+}
+
+/* footer */
+.foot_panel1{
+  height: 49px;
+  background-color: #37475a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot_panel1 a{
+  color: #ffffff;
+  font-size: 13px;
+  text-decoration: none;
+}
+.foot_panel2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+.foot_panel2 a{
+  color: #DDDDDD;
+  font-size: 14px;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+.foot_panel2 p{
+  color: #ffffff;  
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 6px 0 14px 0;
+}
+
+.foot_panel22{
+  display: flex;
+  height: 350px;
+  justify-content: space-evenly;
+  background-color: #232f3e;
+}
+.foot_panel3{
+  height:100px;
+  background-color: #37475a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Border</title>
+    <style>
+        * { margin: 0; padding: 0; }
+        .pad { 
+            height: 50px;
+            width: 50px;
+            padding: 2px;
+            margin: 2px;
+        }
+        #first {
+            border: 2px solid;
+            background-color: rgb(225, 30, 76);
+        }
+        #second {
+            border: 3px dotted red;
+            background-color: rgb(35, 214, 92);
+        }
+    </style>
+</head>
+<body>
+    <!-- (content + padding + border)= element size, Note: margin will not be counted in element size  -->
+
+    <!-- border: 2px solid red; (border: weight type colour)-->
+
+    <div id="first" class="pad">First</div>
+    <div id="second" class="pad">Second</div>
+</body>
+</html>

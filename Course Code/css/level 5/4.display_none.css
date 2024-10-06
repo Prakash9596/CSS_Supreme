@@ -1,0 +1,16 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 10px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#div2 {
+    /* visibility: hidden; */
+    display: none;
+    /* display: none; Isse invisible to hoga hi hoga saath hi saath apna height aur width v leke chala jayega */
+    /* visibility: hidden; Isse invisible to hoga pr height aur width rhega  */
+}

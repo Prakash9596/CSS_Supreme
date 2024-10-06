@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Border Radius</title>
+    <style>
+        * { margin: 0; padding: 0; }
+        .pad { 
+            height: 50px;
+            width: 50px;
+            padding: 2px;
+            margin: 2px;
+        }
+        #first {
+            border: 2px solid;
+            border-radius: 5px 15px 5px 5px; /*(Top-left Top-right Bottom-right Bottom-left)*/
+            background-color: rgb(225, 30, 76);
+        }
+        #second {
+            border: 3px dotted red;
+            border-radius: 10px;
+            background-color: rgb(35, 214, 92);
+        }
+    </style>
+</head>
+<body>
+    <div id="first" class="pad">First</div>
+    <div id="second" class="pad">Second</div>
+</body>
+</html>

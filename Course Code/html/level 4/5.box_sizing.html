@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Box Sizing</title>
+    <style>
+        * { margin: 0; padding: 0; }
+        .pad { 
+            height: 50px;
+            width: 50px;
+            padding: 2px;
+            margin: 2px;
+        }
+        #first {
+            border: 2px solid;
+            border-radius: 10px;
+            box-sizing: content-box;
+            background-color: rgb(225, 30, 76);
+        }
+        #second {
+            border: 2px dotted red;
+            border-radius: 10px;
+            box-sizing: border-box;
+            background-color: rgb(35, 214, 92);
+        }
+    </style>
+</head>
+<body>
+    <!-- Div ka height: 50px; width: 50px;
+         content-box: (57.2 * 57.2) = 50(height/width)+{2+2}(padding)+{1.6+1.6}(border), 
+         ye by-default hota h (border 2px= 1.6 me badal gya thoda km ho jata h)
+         
+         border-box: (50 * 50) = 42.8(height/width)+{2+2}(padding)+{1.6+1.6}(border), 
+         (height, width, padding and border usi me aayega)  -->
+    <div id="first" class="pad">First</div>
+    <div id="second" class="pad">Second</div>
+</body>
+</html>
